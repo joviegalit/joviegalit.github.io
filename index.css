@@ -15,7 +15,6 @@ body {
 
 .side-icons-container > a > img {
   display: block;
-  width: 50%;
   padding: 10px 10px 0px 10px;
 }
 
@@ -76,20 +75,20 @@ body {
   font-weight: 700;
 }
 
-a {
+.nav-container a {
   border-color: rgba(26, 15, 10, 0);
   -webkit-transition: border-color 0.7s;
   transition: border-color 0.7s;
 }
 
-a.selected {
+.nav-container a.selected {
   border-width: 1px 0px;
   border-style: solid;
   border-color: rgb(26, 15, 10);
   border-color: rgba(26, 15, 10, 1);
 }
 
-a:hover {
+.nav-container a:hover {
   border-width: 1px 0px;
   border-style: solid;
   border-color: rgba(26, 15, 10, 1);
@@ -102,12 +101,26 @@ a:hover {
 }
 
 @media screen and (max-width: 950px) {
-  .text-container .text {
-    width: 80%;
+  .side-icons-container {
+    position: absolute;;
+    top: 23px;
+    width: 100%
   }
 
-  .side-icons-container {
-    top: 240px;
+  .side-icons-container > a {
+    margin-left: 7px;
+  }
+
+  .side-icons-container .email {
+    float: left;
+  }
+
+  .side-icons-container .linkedin {
+    float: right;
+  }
+
+  .text-container .text {
+    width: 80%;
   }
 
   .logo {
