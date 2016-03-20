@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Lora', 'Georgia', serif;
   color: #1a0f0a;
   background-color: #f4f4f4;
   background-image: url('img/pattern.png');
@@ -97,19 +97,22 @@ body {
 }
 
 a {
-  border-bottom: 1px solid rgba(26, 15, 10, 0);
-  border-top: 1px solid rgba(26, 15, 10, 0);
-  -webkit-transition: border-color 0.5s;
+  border-color: rgba(26, 15, 10, 0);
+  -webkit-transition: border-color 0.7s;
+  transition: border-color 0.7s;
 }
 
 a.selected {
-  border-top: 1px solid rgba(26, 15, 10, 1);
-  border-bottom: 1px solid rgba(26, 15, 10, 1);
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: rgb(26, 15, 10);
+  border-color: rgba(26, 15, 10, 1);
 }
 
 a:hover {
-  border-top: 1px solid rgba(26, 15, 10, 1);
-  border-bottom: 1px solid rgba(26, 15, 10, 1);
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: rgba(26, 15, 10, 1);
 }
 
 .seperator {
