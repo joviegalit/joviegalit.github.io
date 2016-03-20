@@ -4,7 +4,6 @@ body {
   background-color: #f4f4f4;
   background-image: url('img/pattern.png');
   background-repeat: repeat;
-  background-size: 5%;
 }
 
 .side-icons-container {
@@ -102,21 +101,8 @@ body {
 
 @media screen and (max-width: 950px) {
   .side-icons-container {
-    position: absolute;;
-    top: 23px;
-    width: 100%
-  }
-
-  .side-icons-container > a {
-    margin-left: 7px;
-  }
-
-  .side-icons-container .email {
-    float: left;
-  }
-
-  .side-icons-container .linkedin {
-    float: right;
+    position: absolute;
+    top: 50px;
   }
 
   .text-container .text {
