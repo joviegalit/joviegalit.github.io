@@ -48,26 +48,6 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 950px) {
-  .side-icons-container {
-    top: 240px;
-  }
-
-  .logo {
-    width: 20% !important;
-  }
-
-  .nav-container li {
-    float: none;
-    padding: 5px 0px;
-  }
-}
-
-.nav-container li a {
-  text-decoration: none;
-  color: #1a0f0a;
-}
-
 .logo {
   display: block;
   width: 12%;
@@ -121,8 +101,26 @@ a:hover {
   border-top: 1px solid #1a0f0a;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .text-container .text {
     width: 80%;
   }
+
+  .side-icons-container {
+    top: 240px;
+  }
+
+  .logo {
+    width: 20% !important;
+  }
+
+  .nav-container li {
+    float: none;
+    padding: 5px 0px;
+  }
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: #1a0f0a;
 }
